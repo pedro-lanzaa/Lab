@@ -13,12 +13,13 @@
 #define PI 3.14159
 
 int main(void) {
+
 	int idade = 26;
 	const int MAX_NUM = 100;
 
-	printf("Minha váriavel int comum = %d\n\n", idade);
-	printf("Minha váriavel int constante = %d\n\n", MAX_NUM);
-	printf("Minha constante = %d\n", PI);
+	printf("Minha váriavel int comum = %d\n", idade);
+	printf("Minha váriavel int constante = %d\n", MAX_NUM);
+	printf("Minha constante = %f\n", PI);
 
 	// MAX_NUM = 99;
 

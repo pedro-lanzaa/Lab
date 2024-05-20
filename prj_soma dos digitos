@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int SomaDosDigitos(int n) {
+  if (n == 0) 
+    return 0;
+   else 
+    return (n % 10) + SomaDosDigitos(n / 10);
+  }
+  int main(void) {
+    int numero = 12345;
+
+    int resultado = SomaDosDigitos(numero);
+
+    printf("A soma dos digitos de %d é %d\n", numero, resultado);
+
+    return 0;
+  }
